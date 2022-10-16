@@ -1,4 +1,4 @@
-package practiceAllJava2022;
+package PracticeExceptionHandling;
 
 public class LearnException {
     public static void main(String[] args) {
