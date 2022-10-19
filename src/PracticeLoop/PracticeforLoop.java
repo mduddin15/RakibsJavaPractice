@@ -1,3 +1,5 @@
+package PracticeLoop;
+
 public class PracticeforLoop {
 
         public static void main(String[] args) {

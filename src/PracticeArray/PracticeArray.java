@@ -1,3 +1,5 @@
+package PracticeArray;
+
 import java.util.Arrays;
 
 public class PracticeArray {
