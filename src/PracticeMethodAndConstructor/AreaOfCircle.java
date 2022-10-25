@@ -1,4 +1,4 @@
-package PracticeMethod;
+package PracticeMethodAndConstructor;
 
 public class AreaOfCircle {
 

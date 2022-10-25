@@ -1,8 +1,4 @@
-package PracticeMethod;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package PracticeMethodAndConstructor;
 
 class Book {
     public String name;

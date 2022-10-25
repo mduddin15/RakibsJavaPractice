@@ -1,18 +1,25 @@
 package LearnControlFlow;
 
-public class PrintStar {
+public class BasicIfElse {
 
     public static void main(String[] args) {
 
-        // Print 100 *
-        for (int k = 1; k <= 100; k++) {
-            System.out.print('*');
-        }
+                int x = 20;
+                int y = 18;
 
-        //Print multiples of 6.
-        System.out.println();
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(i * 6 + " ");
-        }
-    }
-}
+                if (x > y) {
+                    System.out.println("x is greater than y");
+                }
+                     int time = 22;
+                    if (time < 10) {
+                        System.out.println("Good morning.");
+                    } else if (time < 20) {
+                        System.out.println("Good day.");
+                    }  else {
+                        System.out.println("Good evening.");
+                    }
+
+                }
+            }
+
+

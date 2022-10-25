@@ -1,2 +1,4 @@
-package PracticeMethodAndConstructor;public class LearnConstructor {
+package PracticeMethodAndConstructor;
+
+public class LearnConstructor {
 }
