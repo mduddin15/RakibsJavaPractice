@@ -1,6 +1,6 @@
 package PracticeMethodAndConstructor;
 
-class Book {
+class Book { //why we can't use public here?
     public String name;
     public String authors;
     public String publisher;
