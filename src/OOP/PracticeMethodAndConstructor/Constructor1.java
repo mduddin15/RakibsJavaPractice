@@ -42,7 +42,7 @@ public class Constructor1 {
         public static void main(String[] args) {
             Constructor1 myobj = new Constructor1("donald", 100,200);
             Constructor1 myobj2 = new Constructor1("trump", 50,300);
-            Constructor1 myobj3 = new Constructor1("");
+            Constructor1 myobj3 = new Constructor1("Rakib");
             Constructor1 myobj5 = new Constructor1(50);
             Constructor1 myobj4 = new Constructor1();
 
