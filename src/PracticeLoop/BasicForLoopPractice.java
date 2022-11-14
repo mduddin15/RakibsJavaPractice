@@ -1,6 +1,6 @@
 package PracticeLoop;
 
-public class BasicLoopPractice {
+public class BasicForLoopPractice {
 
     public static void main(String[] args) {
 

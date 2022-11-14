@@ -2,7 +2,7 @@ package PracticeLoop;
 
 import java.util.Scanner;
 
-public class PracticeNestedLoop {
+public class FullNumberTable {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

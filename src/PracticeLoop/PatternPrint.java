@@ -5,7 +5,7 @@ public class PatternPrint {
         public static void main(String[] args) {
 
             int i;
-            for (i = 0; i < 10; i++) {  //outer loop for number of rows(n)
+            for (i = 0; i <10; i++) {  //outer loop for number of rows(n)
 
                 System.out.print(" ");  //print space
             }

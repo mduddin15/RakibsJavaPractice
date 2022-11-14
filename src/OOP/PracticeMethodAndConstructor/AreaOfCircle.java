@@ -10,7 +10,7 @@ public class AreaOfCircle {
 
         // Area of circle = pi*Radius^2
 
-        static double radius(int a, int b , int c ) {
+        public static double radius(int a, int b , int c ) {
 
 
             double s = (a+b+c)/2;
@@ -24,7 +24,7 @@ public class AreaOfCircle {
         public static void main(String[] args) {
 
 
-            double x = radius(35, 40, 50);
+            double x = radius(10, 20, 30);
 
             double area = Math.PI* Math.pow(x, 2);
 

@@ -3,7 +3,7 @@ package OOP.Inheritance;
 public class MountainBike extends Bicycle {
 
     // the MountainBike subclass adds one more field
-    public int seatHeight;
+    private int seatHeight;
 
     // the MountainBike subclass has one constructor
     public MountainBike(int gear, int speed,
@@ -22,8 +22,8 @@ public class MountainBike extends Bicycle {
 
     // overriding toString() method
     // of Bicycle to print more info
-    @Override public String toString()
-    {
+    @Override
+    public String toString() {
         return (super.toString() + "\nseat height is "
                 + seatHeight);
     }

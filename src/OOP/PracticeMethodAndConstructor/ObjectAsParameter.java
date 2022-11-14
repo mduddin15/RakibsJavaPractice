@@ -4,19 +4,14 @@ public class ObjectAsParameter {
 
     static class Adder{
         int x, y,z;
-
         public int calculator(Adder obj ) {
             return obj.x + obj.y + obj.z;
-
         }
-
     }
-
     public int calculator(int a, int b, int c) {
         int d= a+b+c;
     return d;
     }
-
     public static void main(String[] args) {
 
         ObjectAsParameter myobj = new ObjectAsParameter();
@@ -30,8 +25,6 @@ public class ObjectAsParameter {
 
         int res = myObj2.calculator(myObj2);
         System.out.println(res);
-
-
-
+        
     }
 }

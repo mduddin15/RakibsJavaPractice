@@ -22,7 +22,7 @@ public class PracticeArray {
             System.out.println(i);
         }
 
-        // multidimensional array
+        // multidimensional array, 2D
 
         int[][] myNumbers = {{1, 2, 3, 4}, {5, 6, 7}};
         int x = myNumbers[1][2];

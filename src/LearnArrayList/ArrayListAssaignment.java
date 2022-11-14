@@ -1,8 +1,9 @@
 package LearnArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class ArrayAssaignment {
+public class ArrayListAssaignment {
 
     public static void main(String[] args) {
 
@@ -25,6 +26,12 @@ public class ArrayAssaignment {
         // Assign last elements of an array to the variable y.
         int y = myInt.get(myInt.size()-1);
         System.out.println(y);
+
+
+        // assign element directly to the ArrayLIst by using Arrays.asList Method.
+
+        ArrayList<Integer> myInt2 = new ArrayList<>(Arrays.asList(25,26,27,28,29,30,31,32,33));
+        System.out.println(myInt2);
 
         }
 

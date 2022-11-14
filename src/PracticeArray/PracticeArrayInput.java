@@ -1,5 +1,7 @@
 package PracticeArray;
 
+import java.util.Arrays;
+
 public class PracticeArrayInput {
 
         public static void main(String[] args) {
@@ -22,6 +24,9 @@ public class PracticeArrayInput {
 
                 System.out.println(); // print a  blank line.
                 System.out.println("The number in first row and third column: " + number[0][2]);
+
+                //observation: toString method cannot print two dimensional Array/
+                System.out.println(Arrays.toString(number));
             }
         }
 
