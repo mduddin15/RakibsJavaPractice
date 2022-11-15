@@ -1,2 +1,3 @@
-package MathProblems;public class FindGcdObject {
+package MathProblems;
+public class FindGcdObject {
 }

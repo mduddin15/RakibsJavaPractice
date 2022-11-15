@@ -1,23 +1,24 @@
 package MathProblems;
 
+
 import java.util.Scanner;
 
-public class FindGCD {
+public class FindGcd {
 
-     static int n1;
-     static int n2;
-     static int GCD;
+        static int n1;
+        static int n2;
+        static int GCD;
 
 
-    public static int calculateGcd() {
-        for (int i = 1; i <= n1 && i <= n2; i++) {
-            if (n1 % i == 0 && n2 % i == 0) {
-                GCD = i;
+        public static int calculateGcd() {
+            for (int i = 1; i <= n1 && i <= n2; i++) {
+                if (n1 % i == 0 && n2 % i == 0) {
+                    GCD = i;
 
+                }
             }
+            return GCD;
         }
-        return GCD;
-    }
 
         public static void Scan () {
             Scanner sc = new Scanner(System.in);
@@ -39,5 +40,5 @@ public class FindGCD {
             System.out.println("\n GCD of " + n1 + " and " + n2 + "  =  " + GCD);
         }
 
-    }
+}
 
