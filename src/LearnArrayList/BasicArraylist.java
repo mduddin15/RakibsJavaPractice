@@ -11,6 +11,7 @@ public class BasicArraylist {
      is also slightly different. */
 
     public static void main(String[] args) {
+        System.out.println("Basic Array List");
 
         ArrayList<String> city = new ArrayList<>();
         city.add("New York");
