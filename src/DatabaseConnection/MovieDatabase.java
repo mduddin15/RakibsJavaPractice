@@ -15,7 +15,7 @@ public class MovieDatabase {
     static Statement statement;
 
     static String schemaName = "MovieDatabase";
-    static String movieTable = "BestMovies";
+    static String movieTable = "products";
 
     public static void main(String[] args) throws Exception {
 

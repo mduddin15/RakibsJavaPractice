@@ -1,6 +1,8 @@
 package StringProblems;
 
 public class Anagram {
+
+    //Anagram problem solved by Ascii code.
         static int CHARACTER_RANGE = 256;
         public static void main(String[] args) {
 

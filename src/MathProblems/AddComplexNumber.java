@@ -4,7 +4,7 @@ public class AddComplexNumber {
 
         double real, imaginary;
 
-    AddComplexNumber(double r, double i) {
+    AddComplexNumber(double r, double i) { // it's a constructor
             this.real = r;
             this.imaginary = i;
         }
@@ -12,6 +12,15 @@ public class AddComplexNumber {
     @Override
     public String toString() {
         return  real + "+" + imaginary + 'i';
+    }
+
+
+    public static AddComplexNumber sum(AddComplexNumber cn1, AddComplexNumber cn2) {
+        AddComplexNumber addition = new AddComplexNumber(0, 0);
+        addition.real = cn1.real + cn2.real;
+        addition.imaginary = cn1.imaginary + cn2.imaginary;
+
+        return addition;
     }
 
     public static void main(String args[]){
@@ -31,11 +40,5 @@ public class AddComplexNumber {
                    // addition.real + " + " + addition.imaginary + "i ");
         }
 
-        public static AddComplexNumber sum(AddComplexNumber cn1, AddComplexNumber cn2) {
-            AddComplexNumber addition = new AddComplexNumber(0, 0);
-            addition.real = cn1.real + cn2.real;
-            addition.imaginary = cn1.imaginary + cn2.imaginary;
 
-            return addition;
-        }
     }
