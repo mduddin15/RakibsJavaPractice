@@ -6,13 +6,11 @@ public class ReverseByScanner {
 
     public static void main(String[] args) {
 
-        String original;
-
         Scanner inputWord = new Scanner(System.in);
 
         System.out.println("Type any word");
 
-        original = inputWord.nextLine();
+        String original = inputWord.nextLine();
 
         String reverse = "";
 

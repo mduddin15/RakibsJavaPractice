@@ -15,5 +15,13 @@ public class ConvertIntegerToString {
         System.out.println(str1.length());
         System.out.println(str1.substring(1,3));
 
+
+        // another method: Int to String by using String.valueOf() method
+
+        String age1=String.valueOf(a);
+        System.out.println(age1);
+        System.out.println(age1.length());
+
+
     }
 }
