@@ -14,7 +14,7 @@ public class VariableSwap {
 
         System.out.println(i);
         System.out.println(j);
-        //System.out.println(temp);
+        System.out.println(temp);
 
     }
 }

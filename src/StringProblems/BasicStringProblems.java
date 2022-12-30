@@ -52,6 +52,8 @@ public class BasicStringProblems {
 
         //The equals() method compares two strings, and returns true if the strings are equal,
         // and false if not.
-        System.out.println(Sentence.equals(Sentence2));
+        System.out.println(Sentence.equals(Sentence));
+
+        System.out.println("Compare : " + Sentence2.equals("I am going home"));
     }
 }

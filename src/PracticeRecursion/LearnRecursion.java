@@ -2,7 +2,7 @@ package PracticeRecursion;
 
 public class LearnRecursion {
 
-// Recursion : re call the method by itself
+// Recursion : recall the method by itself
         // It's a process which is calling a method itself continuously
 
         public static void main(String[] args) {
