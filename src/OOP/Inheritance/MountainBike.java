@@ -24,7 +24,7 @@ public class MountainBike extends Bicycle {
     // of Bicycle to print more info
     @Override
     public String toString() {
-        return (super.toString() + "\nseat height is "
+        return (super.toString() + "\n seat height is "
                 + seatHeight);
     }
 }

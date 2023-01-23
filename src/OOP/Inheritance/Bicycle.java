@@ -7,15 +7,13 @@ public class Bicycle {
     public int speed;
 
     // the Bicycle class has one constructor
-    public Bicycle(int gear, int speed)
-    {
+    public Bicycle(int gear, int speed) {
         this.gear = gear;
         this.speed = speed;
     }
 
     // the Bicycle class has three methods
-    public void applyBrake(int decrement)
-    {
+    public void applyBrake(int decrement) {
         speed -= decrement;
     }
 

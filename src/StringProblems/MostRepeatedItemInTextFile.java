@@ -6,12 +6,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class MostRepeatedItemInTextFile {
+
+    // I go home but not go to school.
+
+    // talk with tarik
     public static void main(String[] args) throws IOException {
         String line, word = "";
         int count = 0;
         int maxCount = 0;
         ArrayList<String> words = new ArrayList<>();
-        FileReader file = new FileReader("C:/Users/mukul/Desktop/all.txt");
+        FileReader file = new FileReader("/Users/mdrakibuddin/Desktop/school.txt");
         BufferedReader br = new BufferedReader(file);
         while ((line = br.readLine()) != null) {
             String[] string = line.toLowerCase().split("[.,\\s]");

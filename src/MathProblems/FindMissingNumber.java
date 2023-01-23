@@ -18,10 +18,10 @@ public class FindMissingNumber {
             int n=nums.length;
             int sum=((n+1)*(n+2))/2;
             for(int i=0;i<n;i++)
-                sum-=nums[i];
+                sum-=nums[i]; // sum = sum - nums[i]
             return sum;
         }
-
+        // big O notation will be n
 
     }
 

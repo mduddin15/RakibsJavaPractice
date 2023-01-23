@@ -18,16 +18,14 @@ public class ArrayListWithAraay {
         schools.add(class4);
         schools.add(class5);
 
-        System.out.println(schools);
+        System.out.println(schools); // printing didn't go as plan because the arraylist contains arrays.
 
         for (int i = 0; i < schools.size(); i++) {
-            System.out.println("Class "+ i +": ");
+            System.out.println("Class "+ (i+1) +": ");
             for (int j : schools.get(i)) {
                 System.out.print(j +", ");
             }
             System.out.println();
         }
-
-
     }
 }

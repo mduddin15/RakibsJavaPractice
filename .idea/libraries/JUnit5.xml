@@ -1,10 +1,7 @@
 <component name="libraryTable">
   <library name="JUnit5">
-    <CLASSES>
-      <root url="file://$USER_HOME$/Desktop/MidTerm_QE_WINTER2022-main/ExternalLibrary/JUnit5.4" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$USER_HOME$/Desktop/MidTerm_QE_WINTER2022-main/ExternalLibrary/JUnit5.4" recursive="false" />
   </library>
 </component>

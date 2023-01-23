@@ -15,11 +15,11 @@ public class Pattern {
 				System.out.print(i + ",");
 			} else if ( i < 90 && i >= 70) {
 				System.out.print((i=i-1) + ",");
-			} else if (i < 70 && i>3) {
+			} else if (i < 70 && i>1) {
 				System.out.print((i=i-2) + ",");
 			}
 		}
-		System.out.print(1 + ".");
+		//System.out.print(1 + ".");
 
 	}
 }

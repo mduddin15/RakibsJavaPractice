@@ -24,6 +24,6 @@ public class RoadBike extends Bicycle{
 
     @Override
     public String toString() {
-        return ("\n"+ super.toString() + "\nweight is " + weight);
+        return ("\n"+ super.toString() + "\n weight is " + weight);
     }
 }

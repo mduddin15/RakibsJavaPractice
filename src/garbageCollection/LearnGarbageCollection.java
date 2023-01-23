@@ -20,7 +20,8 @@ public class LearnGarbageCollection {
 
         System.out.println(learn.name);
 
-        learn1.sum();
+        //learn1.sum();
+        learn1.finalize();
 
         // Requesting JVM for running Garbage Collection
         System.gc();

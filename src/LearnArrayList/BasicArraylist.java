@@ -28,12 +28,15 @@ public class BasicArraylist {
             System.out.println(city.get(i));
 
         }
-
+        System.out.println(".........................................");
+        System.out.println("Print the first element of the ArrayList");
         System.out.println(city.get(0));
 
         city.set(0, "London");
         System.out.println(city);
 
+        System.out.println();
+        System.out.println("Clear all the element of ArrayList");
         city.clear();
         System.out.println(city);
 
@@ -48,7 +51,7 @@ public class BasicArraylist {
         myNumbers.add(45);
 
         System.out.println("Original ArrayLIst:");
-        for (int i : myNumbers) {
+        for (int i : myNumbers) {  // use of For Each Loop
             System.out.println(i);
         }
 

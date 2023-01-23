@@ -4,7 +4,7 @@ public class EquilateralTriangle {
 
 
     public static void main(String[] args) {
-        designTriangle(5);
+        designTriangle(7);
     }
 
     public static void designTriangle(int row){
