@@ -10,7 +10,7 @@ class SimpleInterestCalculatorStaticTest {
     void simpleIntersetTest() {
 
         double C = SimpleInterestCalculatorStatic.simpleInterset(6000, 5, 7);
-        assertEquals(2100, C);
+        assertEquals(2100, C); // syntax for junit 5.
     }
 
 }
