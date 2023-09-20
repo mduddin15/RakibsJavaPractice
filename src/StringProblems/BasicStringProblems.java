@@ -55,5 +55,37 @@ public class BasicStringProblems {
         System.out.println(Sentence.equals(Sentence));
 
         System.out.println("Compare : " + Sentence2.equals("I am going home"));
-    }
-}
+
+        //The concat() method appends (concatenate) a string to the end of another string. Its works same as + sign for strings.
+        System.out.println(Sentence.concat(Sentence2));
+
+        //Return the Unicode of the first character in a string (the Unicode value of "I" is 73):
+        System.out.println(Sentence2.codePointAt(0));
+
+        // The compareTo() method compares two strings lexicographically. The comparison is based on the Unicode value
+        // of each character in the strings. The method returns 0 if the string is equal to the other string. A value
+        // less than 0 is returned if the string is less than the other string (less characters) and a value greater
+        // than 0 if the string is greater than the other string (more characters).
+        System.out.println(Sentence.compareTo(Sentence2)); // output: 4
+
+
+                 //Splits a string into an array of substrings
+                // Split the input string into an array of substrings using a comma (,) as the delimiter
+                String[] words = Sentence.split(" ");
+
+                // Loop through the resulting array and print each word
+                for (String i : words) {
+                System.out.println(i);
+
+
+                    // Convert the input string to a character array
+                    char[] charArray = Sentence.toCharArray();
+
+                    // Loop through the character array and print each character
+                    for (char character : charArray) {
+                        System.out.println(character + " ");
+                    }
+                }
+            }
+        }
+

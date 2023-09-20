@@ -4,8 +4,11 @@ import java.util.Set;
 
 public class DuplicateCharacterCountInString {
     public static void main(String[] args) {
+
         String str="monirul islam";
-        char[]arr=str.toCharArray();
+
+        char[] arr = str.toCharArray();
+
         HashMap<Character,Integer>map= new HashMap<>();
         for (Character ch: arr){
             if (map.containsKey(ch)){
@@ -13,11 +16,15 @@ public class DuplicateCharacterCountInString {
             }else{
                 map.put(ch,1);
             }}
+
         Set<Character> set = map.keySet();
         for (Character c : set){
           if(map.get(c)>1){
                 System.out.println(c + " comes :"+ map.get(c)+ " times");
-            }}}}
+            }
+        }
+    }
+}
 //***********************************
  /*      int[ ] num ={1,3,4,8,6,9,1,3};
         HashMap<Integer,Integer>map= new HashMap<>();

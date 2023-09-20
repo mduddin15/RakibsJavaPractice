@@ -5,8 +5,8 @@ public class ObjectAsParameter {
     int a, b, c;
 
 
-    public int calculator(ObjectAsParameter obj) {
-        return obj.a + obj.b + obj.c;
+    public int calculator(ObjectAsParameter object) {
+        return object.a + object.b + object.c;
     }
 
     public static void main(String[] args) {
